@@ -1,0 +1,204 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.page {
+  display: inline-block;
+  width: 1276px;
+  height: 1000vh;
+  padding-left: 12px;
+  border-radius: 4px;
+  background-color: #ededed;
+  box-shadow: -1px 7px 30px black;
+}
+
+.Sidebar {
+  display: inline-block;
+  border-radius: 8px;
+  margin-left: 5px;
+  margin-top: 26px;
+  width: 119px;
+  height: 990vh;
+  text-shadow: -2px 7px 8px black;
+  box-shadow: -2px 7px 8px black;
+  background-color: rgb(248, 159, 51);
+}
+
+
+.AL {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-evenly;
+  margin-top: -306px;
+  font-size: 20px;
+  width: 1000px;
+  height: 70px;
+  margin-left: 130px;
+  border: 2px solid rgba(22, 7, 7, 0.623);
+  border-radius: 8px;
+  box-shadow: 1px 9px 19px black;
+  align-items: center;
+  background-color: antiquewhite;
+}
+
+.icon {
+  width: 39px;
+  height: 38px;
+  margin-right: -48px;
+  margin-left: -11px;
+  border-radius: 18px;
+  margin-top: 2px;
+}
+
+
+
+.Side {
+  border-bottom: 3px solid red;
+  box-shadow: -10px 9px 7px black;
+}
+
+ul {
+  margin-left: -35px;
+
+}
+
+ul li {
+  list-style: none;
+  text-decoration: none;
+  cursor: pointer;
+  transition: 0.5s;
+  width: 25px;
+  box-shadow: -4px 6px 7px black;
+  margin-bottom: 30px;
+  padding-right: 10px;
+  background-color: #ddd;
+}
+
+li:hover {
+  background-color: rgb(177, 157, 157);
+  color: red;
+  border: 3px solid rgb(168, 40, 62);
+}
+
+.B,
+.C,
+.D,
+.E,
+.F {
+  border: 1px solid rgb(168, 40, 62);
+
+}
+
+span {
+  color: red;
+  transition: 0.5s;
+  cursor: pointer;
+  background-color: antiquewhite;
+}
+
+
+.AL span:hover {
+  background-color: rgb(196, 119, 18);
+  font-size: 24px;
+  color: #e1e5e9;
+  margin-top: -5px;
+}
+
+.icon:hover {
+  border: 3px solid red;
+
+}
+
+
+
+label {
+  color: black;
+  margin-right: -30px;
+}
+
+input {
+  outline: none;
+  box-shadow: 1px 1px 3px black;
+  border: none
+}
+
+label:hover {
+  color: red;
+  font-size: 26px;
+}
+
+
+
+
+
+.Cssimg {
+  background-image: url(./imagege/ttt.jpg);
+  background-repeat: repeat;
+  background-size: contain;
+  margin-top: 21px;
+  margin-left: 130px;
+  display: inline-block;
+  width: 1000px;
+  height: 980vh;
+  width: calc(50%-2%/12);
+  border-radius: 8px;
+  box-shadow: 3px 6px 12px black;
+}
+
+img {
+  width: 250px;
+  border-radius: 10px;
+  margin-left: 30px;
+  margin-top: 23px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+img:hover{
+color:black ;
+
+
+}
+
+.Cssimg div {
+  width: 430px;
+  background-color: bisque;
+  border-radius: 8px;
+  box-shadow: 2px 6px 12px palevioletred;
+}
+
+h3 {
+width: 50px;
+  color: whitesmoke;
+  font-weight: bold;
+  margin-left: 180px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+h3:hover {
+  color: red;
+  background-color: aliceblue;
+  margin-top: 7px;
+ border-radius: 8px;
+}
+
+p {
+cursor: pointer;
+  margin-left: 80px;
+  font-size: 20px;
+  color: #1b7ee2;
+  width:300px;
+  transition: 0.5s;
+}
+
+p:hover {
+  font-size: 24px;
+  color: red;
+  background-color: aliceblue;
+  margin-top: 7px;
+ border-radius: 8px;
+}
